@@ -25,5 +25,5 @@ zeroes = importedList.count(0)
 for i in range(0, zeroes):
     importedList.remove(0)
     importedList.append(0)
-print "New list:", importedList
+print "New list:", importedList,counter
 a = input()
