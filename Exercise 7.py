@@ -1,4 +1,3 @@
-"Πρόβλημα με το encoding όταν τρέχει απευθείας. Όλα καλά όταν τρέχει μέσα απο το IDLE"
 import tweepy
 from tweepy import OAuthHandler
 
@@ -6,6 +5,7 @@ consumer_key = "pNKYrZwP9bSgrqgxmvAXhW7Pi"
 consumer_secret = "MwyIIUGg2b0gbFXMhJidu4lpFRntYFqR1bxuIqidax2CKKP39h"
 access_token = "828382368499118080-xCfhjOFrtTCz9iwc7TBu5K6PX8QiRJw"
 access_secret = "IGbjqNm32JM46XQz8yfhpcqZ1wjEpD97Z7ESGIOPsPnQn"
+
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
