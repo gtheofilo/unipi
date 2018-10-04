@@ -31,8 +31,7 @@ def mark_remover(splitted):
 print "+---------------------------------------------------+"
 print "|Introduction to Computer Science - Exercise One (1)|"
 print "+---------------------------------------------------+\n"
-sentence = raw_input("Type your string >> ")
-print "\n"
+sentence = raw_input("Type your string >>\n ")
 splitted = split_into_sentences(sentence)
 removed = mark_remover(splitted)
 for item in removed:
