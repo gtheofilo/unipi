@@ -1,6 +1,6 @@
 import os
 print "+---------------------------------------------------+"
-print "|Introduction to Computer Science - Exercise One (3)|"
+print "|Introduction to Computer Science - Exercise One (1)|"
 print "+---------------------------------------------------+\n"
 print "Type the elements of the list one by one. If you want"
 print "to stop, type STOP/stop.\n"
