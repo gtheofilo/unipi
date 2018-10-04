@@ -7,7 +7,7 @@ def menu():
 
     wipe_screen()
     print "+--------------------------------------------------------------------+"
-    print "|Introduction to Computer Science - Exercise 10                      |"
+    print "|Introduction to Computer Science - Exercise 10  (ten)               |"
     print "+--------------------------------------------------------------------+"
     print "|To exit, Type: 1                                                    |"
     print "|For the supported crypto-currencies, Type: 2                        |"
